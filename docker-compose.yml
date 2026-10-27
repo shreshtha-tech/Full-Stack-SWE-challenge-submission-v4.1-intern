@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: ./backend
+    volumes: ["elexon_cache:/tmp/elexon_cache"]
+  frontend:
+    build: ./frontend
+    ports: ["3000:80"]
+    depends_on: [backend]
+volumes: { elexon_cache: {} }
