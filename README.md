@@ -6,7 +6,7 @@ Data: Elexon BMRS only — `FUELHH` (actuals, `fuelType=WIND`) and `WINDFOR` (fo
 
 > **AI disclosure:** this project was built with AI assistance (Claude by Anthropic) for code generation and scaffolding. Design decisions and logic should be reviewed by the author.
 
-**Live app:** `<ADD VERCEL URL AFTER DEPLOY>`
+**Live app:** https://full-stack-swe-challenge-submission.vercel.app
 
 ## Key design decision
 For delivery day D the buyer decides at gate G (default 09:00 UK on D-1, configurable in the UI). For every half-hour of D we take the
